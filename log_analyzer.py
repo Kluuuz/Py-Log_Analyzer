@@ -17,3 +17,6 @@ with open(f"logs/{file}","r") as logs:
     if not found:   
          print("No matched ")
 
+#Summary
+print("\n===============================\n============SUMMARY============\n===============================\n")
+print(f"Number of {search.capitalize()}: {num}")
