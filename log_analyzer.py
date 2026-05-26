@@ -10,8 +10,8 @@ found = False
 
 with open(f"logs/{file}","r") as logs:
     for filtered in logs:
-        num += 1
         if search in filtered.lower():
+            num += 1
             found = True
             print(f"{num}. {filtered.strip()}")
     if not found:   
