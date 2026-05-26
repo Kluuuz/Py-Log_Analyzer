@@ -1,6 +1,0 @@
-May 26 Failed password for root from 192.168.1.10
-May 26 Failed password for admin from 192.168.1.10
-May 26 Failed password for root from 192.168.1.10
-May 26 Failed password for user from 192.168.1.15
-May 26 Accepted password for root from 192.168.1.20
-May 26 Failed password for admin from 192.168.1.10
