@@ -21,8 +21,9 @@ with open(f"logs/{file}","r") as logs:
          print("No matched ")
 
 #Summary
-print("\n===============================\n============SUMMARY============\n===============================\n")
-print(f"Number of {search.capitalize()}: {match}")
+print("\n===============================\n------------SUMMARY------------\n===============================\n")
+print(f"Total Matches for {search.capitalize()}: {match}")
+print(f"Total events scanned: {num}")
 if num > 0 :
     percent = (match / num) * 100
     print(f"Match rate: {percent:.2f}%")
